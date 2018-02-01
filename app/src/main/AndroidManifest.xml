@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.sourcey.materiallogindemo.MainActivity"
-            android:label="@string/app_name" >
+            android:label="FOODLIGHT" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.sourcey.materiallogindemo.LoginActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.sourcey.materiallogindemo.ImcActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.sourcey.materiallogindemo.Imc1Activity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="com.sourcey.materiallogindemo.ModuloActivity" android:theme="@style/AppTheme.Dark" />
         <activity android:name="com.sourcey.materiallogindemo.SignupActivity" android:theme="@style/AppTheme.Dark" />
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>
