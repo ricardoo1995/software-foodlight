@@ -17,7 +17,7 @@ import butterknife.Bind;
 
 
 public class ImcActivity extends AppCompatActivity {
-//holas
+//hola a todos
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
