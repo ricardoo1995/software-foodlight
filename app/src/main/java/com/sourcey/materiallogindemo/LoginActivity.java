@@ -105,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
         last_name="";
         email="";
         id="";
-        //
+        //holas bobazos
         try {
             first_name = object.getString("first_name");
             last_name=object.getString("last_name");
