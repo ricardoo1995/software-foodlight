@@ -20,7 +20,7 @@ public class ModuloActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.button5:
                 miIntent=new Intent(ModuloActivity.this,EjercicioActivity.class);
-                break;
+                break;//
             case R.id.button6:
                 miIntent=new Intent(ModuloActivity.this,EjercicioActivity.class);
                 break;
