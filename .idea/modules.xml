@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/foodlight-sw2.iml" filepath="$PROJECT_DIR$/foodlight-sw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/software-foodlight.iml" filepath="$PROJECT_DIR$/software-foodlight.iml" />
     </modules>
   </component>
 </project>
