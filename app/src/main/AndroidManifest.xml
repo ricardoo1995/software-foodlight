@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sourcey.materiallogindemo" >
-///hola a todos
-    <uses-permission
-        android:name="android.permission.INTERNET"/>
-    
-    
+    package="com.sourcey.materiallogindemo">
+    ///hola a todos
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name="com.sourcey.materiallogindemo.MainActivity"
-            android:label="FOODLIGHT" >
+            android:name=".MainActivity"
+            android:label="FOODLIGHT">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sourcey.materiallogindemo.LoginActivity" android:theme="@style/AppTheme.Dark" />
-        <activity android:name="com.sourcey.materiallogindemo.ImcActivity" android:theme="@style/AppTheme.Dark" />
-        <activity android:name="com.sourcey.materiallogindemo.Imc1Activity" android:theme="@style/AppTheme.Dark" />
-        <activity android:name="com.sourcey.materiallogindemo.ModuloActivity" android:theme="@style/AppTheme.Dark" />
-        <activity android:name="com.sourcey.materiallogindemo.SignupActivity" android:theme="@style/AppTheme.Dark" />
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
-        <activity android:name="com.facebook.FacebookActivity"
+        <activity
+        android:name=".LoginActivity"
+        android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".EjercicioActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".ImcActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Imc1Activity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".ModuloActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.Dark" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.category.BROWSABLE"/>
-                <data android:name="@string/fb_login_protocol_scheme"/>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.category.BROWSABLE" />
+
+                <data android:name="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".TabsActivity"
+            android:label="@string/title_activity_tabs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

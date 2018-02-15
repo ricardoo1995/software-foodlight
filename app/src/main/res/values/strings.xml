@@ -6,4 +6,6 @@
     <string name="app_name">Facebook Login Demo</string>
     <string name="facebook_app_id">122717695022115</string>
     <string name="fb_login_protocol_scheme">fb122717695022115</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
