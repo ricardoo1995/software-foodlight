@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
     @Bind(R.id.link_signup) TextView _signupLink;
     
     @Override
-    //
+    //hola mundo
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);//hola
         setContentView(R.layout.activity_login);
